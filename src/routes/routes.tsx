@@ -7,7 +7,7 @@ import About from "../pages/About/About";
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: "/",
         element: <App></App>,
         children: [
             {
@@ -15,10 +15,14 @@ const router = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path: 'about',
+                path: "about",
                 element: <About></About>
             }
         ]
+    },
+    {
+        path: '/test',
+        element: <h1>shakil</h1>
     }
 ])
 
