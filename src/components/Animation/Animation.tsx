@@ -7,7 +7,12 @@ const Animation = () => {
                 <div className="box-1">
                    
                 </div>
-                <h1>Something Cool</h1>
+                <div className='box-container-2'>
+                <div className="box-2">
+                   
+                   </div>
+               </div>
+               
             </div>
         </>
     );
